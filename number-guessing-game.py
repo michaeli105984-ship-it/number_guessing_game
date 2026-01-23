@@ -1,7 +1,7 @@
 """
 Filename: <>
 Author: <Fontaine, Michael>
-Created: <1/21/2026>
+Created: <1/23/2026>
 Instructor: Holtslander
 """
 from random import randint
@@ -17,4 +17,5 @@ elif num < guess:
     print("Too low!")
 elif num > guess:
     print ("Too high!")
+
 
