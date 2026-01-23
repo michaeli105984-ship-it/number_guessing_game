@@ -7,13 +7,14 @@ Instructor: Holtslander
 from random import randint
 
 # num = randint(1, 100)
-num = 10
+num = 4
 
 guess = int(input("Guess a number between 1 and 100\n"))
 
 if num== guess:
     print("Correct!")
 elif num < guess:
-    print("too low!")
+    print("Too low!")
 elif num > guess:
-    print ("Tpp high!")
+    print ("Too high!")
+
