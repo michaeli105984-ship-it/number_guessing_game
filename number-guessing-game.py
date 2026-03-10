@@ -17,6 +17,7 @@ elif num < guess:
     print("Too low!")
 elif num > guess:
     print ("Too high!")
-# hi
+# number should be random and code needs to repeat
+
 
 
